@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>sonar</name>
+  <version>1.0.0</version>
+  <description>The hc_sr04 package</description>
+
+  <maintainer email="matthew.kelcey+github@gmail.com">mat</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+
+</package>
