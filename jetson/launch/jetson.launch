@@ -1,0 +1,6 @@
+<launch>
+<include file="$(find rplidar_ros)/launch/rplidar.launch" />
+<include file="$(find imu_read_data)/launch/imu_read.launch" />
+<!--<include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch" />-->
+<node pkg="sonar" type="sonar_test" name="proximity"/>
+</launch>
